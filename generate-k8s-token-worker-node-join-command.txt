@@ -1,0 +1,7 @@
+#
+1.) Create a new Bootstrap token and construct worker-node join command
+$ kubeadm token create --print-join-command
+
+Output:
+sudo kubeadm join 10.128.0.18:6443 --token 6fy33p.l2b4am7ibevz1ye8 --discovery-token-ca-cert-hash sha256:de57d9e08877db501a8b503db3ee91596f8f5657878c3087bc0343ece7df3eb2
+
